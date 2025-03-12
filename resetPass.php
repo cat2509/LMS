@@ -61,26 +61,23 @@ $token = isset($_GET["token"]) ? $_GET["token"] : null;
         }
 
         .container1 {
-            align-items: flex-start;
-            padding-top: 50px;
-            gap: 163px;
-            background-color: #ffffff;
-            border-radius: 8px;
-            width: 87%;
-            display: flex;
-            justify-content: right;
-            align-items: center;
-            height: 88vh;
-        }
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Full viewport height */
+    background-color: #ffffff;
+    width: 100%;
+}
 
-        .container {
-            width: 29%;
-            background: white;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            text-align: center;
-        }
+.container {
+    width: 29%;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
 
         h2 {
             text-align: center;
@@ -227,7 +224,7 @@ $token = isset($_GET["token"]) ? $_GET["token"] : null;
                 <button type="submit">Update Password</button>
             </form>
 
-            <p class="forgot-password"><a href="login.php">Back to Login</a></p>
+            <p class="forgot-password"><a href="login.html">Back to Login</a></p>
         </div>
     </div>
 

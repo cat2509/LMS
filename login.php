@@ -177,11 +177,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                         <input type="password" id="password" name="password" required>
                         <span class="toggle-password">👁️</span>
                     </div>
-                    <p class="forgot-password"><a href="forgot_pass.php">Forgot Password?</a></p>
+                    <p class="forgot-password"><a href="forgot-password.php">Forgot Password?</a></p>
                     <button type="submit">Login</button>
-                    <div id="google-signin"></div>
                 </div>
             </form>
+          <div id="google-signin"></div>
         </div>
     </div>
     <script src="login.js"></script>
